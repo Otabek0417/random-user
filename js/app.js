@@ -6,9 +6,9 @@ const clearBtn = document.getElementById("clear__button");
 
 // refresh
 formButton.addEventListener("click", (e) => {
-  e.preventDefault;
+  e.preventDefault();
   reload();
-});
+}); 
 // search
 form["form__input"].addEventListener("input", () => {
   const inputValue = form["form__input"].value.toLowerCase();
@@ -25,7 +25,7 @@ form["form__input"].addEventListener("input", () => {
 
 //clear
 clearBtn.addEventListener("click", (e) => {
-  e.preventDefault;
+  e.preventDefault();
   user.innerHTML = "";
   clearBtn.classList.add("hidden");
 });
